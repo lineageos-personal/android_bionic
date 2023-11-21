@@ -470,10 +470,6 @@ cc_defaults {
     apex_available: [
         "com.android.runtime",
     ],
-
-    lto: {
-        never: true,
-    },
 }
 
 cc_library {
